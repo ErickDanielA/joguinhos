@@ -1,0 +1,10 @@
+create database jogos;
+
+CREATE TABLE adivinha(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(50),
+    numero INT,
+    pontuacao INT,
+    resultado VARCHAR(100)
+);
+
